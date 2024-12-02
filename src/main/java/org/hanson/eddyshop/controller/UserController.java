@@ -22,7 +22,7 @@ import static org.springframework.http.HttpStatus.OK;
 
 @RequiredArgsConstructor
 @RestController
-@RequestMapping("${api.prefix}/user")
+@RequestMapping("user")
 public class UserController {
     private final UserService userService;
 

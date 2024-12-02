@@ -16,7 +16,7 @@ import static org.springframework.http.HttpStatus.OK;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("${api.prefix}/cartItems")
+@RequestMapping("cartItems")
 public class CartItemController {
 
     private final CartItemService cartItemService;

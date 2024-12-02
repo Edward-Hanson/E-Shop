@@ -18,7 +18,7 @@ import static org.springframework.http.HttpStatus.OK;
 
 @RequiredArgsConstructor
 @RestController
-@RequestMapping("${api.prefix}/images")
+@RequestMapping("images")
 public class ImageController {
 
     private final ImageService imageService;

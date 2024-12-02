@@ -23,7 +23,7 @@ import static org.springframework.http.HttpStatus.OK;
 
 @RequiredArgsConstructor
 @RestController
-@RequestMapping("${api.prefix}/categories")
+@RequestMapping("categories")
 public class CategoryController {
 
     private final CategoryService categoryService;

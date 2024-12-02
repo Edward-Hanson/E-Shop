@@ -34,7 +34,7 @@ public class ShopConfig {
     private final AuthTokenFilter authTokenFilter;
 
     private static final List<String> SECURE_URLS = List.of(
-            "/api/v1/cart/**","/api/v1/cartItems/**" ,"/api/v1/product/**" );
+            "/api/v1/cart/**","/api/v1/cartItems/**");
 
     @Bean
     public ModelMapper modelMapper() {
